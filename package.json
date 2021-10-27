@@ -1,0 +1,21 @@
+{
+  "name": "nodejs-api-pagamento",
+  "version": "1.0.0",
+  "description": "Projeto para artigo que aborda sobre Integração com a API de Pagamento do Mercado Pago",
+  "main": "index.js",
+  "repository": "https://github.com/vitorleonel/nodejs-api-pagamento.git",
+  "author": "Vitor Leonel <falecom@vitorleonel.com>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "start": "nodemon src"
+  },
+  "dependencies": {
+    "dotenv": "^6.2.0",
+    "express": "^4.16.4",
+    "mercadopago": "^1.0.21",
+    "mongoose": "^5.4.4",
+    "nodemon": "^1.18.9",
+    "require-dir": "^1.2.0"
+  }
+}
